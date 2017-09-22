@@ -1,6 +1,6 @@
 var Venus;
 (function (Venus) {
-    var Boot = (function () {
+    var Boot = /** @class */ (function () {
         function Boot() {
         }
         Boot.prototype.create = function () {
@@ -12,4 +12,4 @@ var Venus;
 })(Venus || (Venus = {}));
 var v = new Venus.Boot();
 v.create();
-//# sourceMappingURL=app.js.map
+//# sourceMappingURL=App.js.map
